@@ -1,0 +1,16 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button{
+    background-color: pink;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    border: transparent;
+    cursor: pointer !important;
+}
+button:hover{
+    
+    background-color: lightpink;
+}
